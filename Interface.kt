@@ -8,7 +8,7 @@ interface op{                   //interface open to all
 open class AdminOp:op{      //inherits from interface, AdminOp is open
                             //as it is inherited below
     open fun love() {       //love() is open as it is modified below
-        println("I love you")
+        println("Hey there")
     }
     override fun add(n: Int, n2: Int){  //can choose members from interface
         println("sum ${n+n2}")
@@ -26,7 +26,7 @@ class UserOp:AdminOp() {
 
     override fun love(){        //changing the inherited function( using "override")
         super.love()            //super is used to call parent class' members
-            println("I love you Baabu")
+            println("Hey there, welcome here")
 
 }
 
