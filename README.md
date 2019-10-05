@@ -22,14 +22,13 @@ Prerequisite - Git. If it's not present in your system, [install from here](http
 * Click on "Clone or Download" (A green button alongside Create new file/ Upload files/ Find file)
 * Copy the URL.
 * Open a terminal/git on your machine and run the following command (without <,>) 
-`git clone <url_that_you_just_copied>`
+	* `git clone <url_that_you_just_copied>`
 
 ### Create a new branch
 * Navigate to the downloaded folder 
 	* Use 'cd' in command line, or
 	* Right click on the downloaded folder and select 'Git Bash here'
-* Create a new branch at your local downloaded folder
-	* `git checkout -b <your_branch_name>`
+* Create a new branch at your local downloaded folder `git checkout -b <your_branch_name>`
 * To be able to track changes, run `git init`
 
 ### Add, Commit, Push
