@@ -4,7 +4,7 @@ This repository is to help beginners understand and implement basic Kotlin conce
 
 ## Ideas for Contribution
 
-* Programs demonstratig how to use Arrays, Lists, and other data structures.
+* Programs demonstrating how to use Arrays, Lists, and other data structures.
 * Take input from user and convert it to String/Numeric.
 * Some basic algorithms of sorting like Selection sort, Merge sort, Bubble sort, Quick sort etc
 * Android concepts - Mini code explaining fragments along with Kotlin examples.
@@ -20,7 +20,7 @@ Prerequisite - Git. If it's not present in your system, [install from here](http
 * Go to your GitHub account and open the forked repository. 
 * Click on "Clone or Download" (A green button alongside Create new file/ Upload files/ Find file)
 * Copy the URL.
-* Open a terminal/git on your machine and run the following command (without <,>)
+* Open a terminal/git on your machine and run the following command (without <,>) 
 `git clone <url_that_you_just_copied>`
 
 ### Create a new branch
