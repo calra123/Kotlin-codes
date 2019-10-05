@@ -1,10 +1,11 @@
+
 # Kotlin-codes
 
 This repository is to help beginners understand and implement basic Kotlin concepts (like OOPS).
 
 ## Ideas for Contribution
 
-* Programs demonstratig how to use Arrays, Lists, and other data structures.
+* Programs demonstrating how to use Arrays, Lists, and other data structures.
 * Take input from user and convert it to String/Numeric.
 * Some basic algorithms of sorting like Selection sort, Merge sort, Bubble sort, Quick sort etc
 * Android concepts - Mini code explaining fragments along with Kotlin examples.
@@ -20,15 +21,14 @@ Prerequisite - Git. If it's not present in your system, [install from here](http
 * Go to your GitHub account and open the forked repository. 
 * Click on "Clone or Download" (A green button alongside Create new file/ Upload files/ Find file)
 * Copy the URL.
-* Open a terminal/git on your machine and run the following command (without <,>)
-`git clone <url_that_you_just_copied>`
+* Open a terminal/git on your machine and run the following command (without <,>) 
+	* `git clone <url_that_you_just_copied>`
 
 ### Create a new branch
 * Navigate to the downloaded folder 
 	* Use 'cd' in command line, or
 	* Right click on the downloaded folder and select 'Git Bash here'
-* Create a new branch at your local downloaded folder
-`git checkout -b <your_branch_name>`
+* Create a new branch at your local downloaded folder `git checkout -b <your_branch_name>`
 * To be able to track changes, run `git init`
 
 ### Add, Commit, Push
