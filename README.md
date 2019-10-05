@@ -1,3 +1,4 @@
+
 # Kotlin-codes
 
 This repository is to help beginners understand and implement basic Kotlin concepts (like OOPS).
@@ -27,7 +28,8 @@ Prerequisite - Git. If it's not present in your system, [install from here](http
 * Navigate to the downloaded folder 
 	* Use 'cd' in command line, or
 	* Right click on the downloaded folder and select 'Git Bash here'
-* Create a new branch at your local downloaded folder<br/>`git checkout -b <your_branch_name>`
+* Create a new branch at your local downloaded folder
+	* `git checkout -b <your_branch_name>`
 * To be able to track changes, run `git init`
 
 ### Add, Commit, Push
