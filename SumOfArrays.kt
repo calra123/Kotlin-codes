@@ -5,17 +5,16 @@ fun main(args: Array<String>) {
 }
 
 fun addNPrimes(possiblePrimes: Array<Int>, n: Int ): Int {
-    var pCount = 0;
-    var primes = possiblePrimes.filter { isPrime(it) && pCount++ < n }
-    return if (primes.size > 0) primes.reduce { sum, pNum -> sum + pNum } else 0    
+    val primes = possiblePrimes.filter { isPrime(it) }.take(n)
+    println("Array of n Primes -> ${primes}")
+    return if (primes.size >= n) primes.reduce { sum, pNum -> sum + pNum } else 0
 }
 
 fun isPrime(num: Int): Boolean {
     if (num <= 1) return false
     
-    var i = 2    
-    while (i < num) {
-        if ( num.rem(i++) == 0) return false
+    for (i in 2..num - 1) {
+        if (num.rem(i) == 0) return false
     }
     return true
 }
@@ -23,9 +22,8 @@ fun isPrime(num: Int): Boolean {
 fun test_addNPrimes() {
     print("Enter how many primes do you wish to sum: ")
     var n = Integer.valueOf(readLine())
- 	var arr = Array(10) { _ -> (1..100).random() }
-    var strArr = Arrays.toString(arr)
-    println("Array of Numbers -> $strArr")
+    val arr = Array(5) { _ -> (1..13).random() }
+    println("Array of Numbers -> ${Arrays.toString(arr)}")
     var total = addNPrimes(arr, n)
     println("Sum: $total")   
 }
